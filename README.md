@@ -40,3 +40,6 @@
 - Own libraries maybe
 - This repository
 - This README.md file
+### PROJECT STATUS  
+- Conception and ideas for UI  
+- Learning SCSS, Vue.JS
