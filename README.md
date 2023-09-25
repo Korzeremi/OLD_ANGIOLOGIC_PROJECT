@@ -30,6 +30,7 @@
 #### PREREQUISITES
 - Maybe used languages :
     - vue.JS with HTML, CSS
+    - FabricJS
     - DB manipulation language (PHP8)
     - My SQL platform for DB (WorkbenchSQL, OracleSQL)
 - Cloud servers for online hosting and DB hosting
