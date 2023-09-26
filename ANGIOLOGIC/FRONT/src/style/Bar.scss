@@ -1,21 +1,46 @@
 .topbar {
-    width: 100%;
+    position: absolute;
+    bottom: 92%;
+    width: 90%;
+    z-index: 999;
+    visibility: visible;
+    height: 2.75rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
     .topbar-logo {
-        width: 25%;
-        background-color: rgb(28, 75, 75);
+        width: 15%;
+        // background-color: rgb(28, 75, 75);
+        background-color: aqua;
         text-align: center;
+        p {
+            color: #FFF;
+            font-size: medium;
+            font-weight: bold;
+        }
     }
     .topbar-btn-sct {
-        width: 50%;
+        background-color: blueviolet;
+        width: 70%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        a {
+            p {
+                color: #FFF;
+            }
+        }
     }
     .topbar-app-status {
-        width: 24%;
+        background-color: chocolate;
+        width: 15%;
         text-align: center;
+        p {
+            color: #FFF;
+            font-weight: 300;
+        }
     }
 }
 

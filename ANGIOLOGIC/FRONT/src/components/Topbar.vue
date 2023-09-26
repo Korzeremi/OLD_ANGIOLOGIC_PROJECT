@@ -1,18 +1,32 @@
 <template>
     <div class="topbar">
         <div class="topbar-logo">
-            <h2>ANGIOLOGIC</h2>
+            <p>ANGIOLOGIC</p>
         </div>
         <div class="topbar-btn-sct">
-            <button>PROJECT</button>
-            <button>SETTINGS</button>
-            <button>INFOS</button>
-            <button>HELP</button>
+            <a href="/null">
+                <p>Projet</p>
+            </a>
+            <a href="/null">
+                <p>Paramètres</p>
+            </a>
+            <a href="/null">
+                <p>Aide</p>
+            </a>
+            <a href="/null">
+                <p>Infos</p>
+            </a>
         </div>
         <div class="topbar-app-status">
-            <h4>ALPHA-DEBUG</h4>
+            <p>ALPHA - DEBUG TEST</p>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    //null
+}
+</script>
 
 <style src="../style/Bar.scss" scoped></style>

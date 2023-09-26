@@ -1,9 +1,11 @@
 <script setup>
 import Foot from '../components/Footbar.vue';
+import Top from '../components/Topbar.vue';
 </script>
 
 <template>
     <body>
+        <Top></Top>
         <div class="index-back-sct">
             <video autoplay loop muted>
                 <source src="../assets/doc.mp4" type="video/mp4">
@@ -15,9 +17,11 @@ import Foot from '../components/Footbar.vue';
                 <h4>L'outil idéal pour vos consultations angiologiques</h4>
             </div>
             <div class="index-btn-sct">
-                <a :href="logIn">
-                    <p>NOUVEAU PROJET</p>
-                </a>
+                <router-link :to="'/Project'">
+                    <a :href="logIn">
+                        <p>NOUVEAU PROJET</p>
+                    </a>
+                </router-link>
             </div>
         </div>
         <Foot></Foot>
@@ -30,6 +34,11 @@ export default {
         'Foot': Foot,
     },
     name: 'Index',
+    methods: {
+        logIn(){
+            
+        }
+    }
 };
 </script>
 
