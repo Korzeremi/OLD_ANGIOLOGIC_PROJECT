@@ -14,4 +14,14 @@
 
 body {
     // background-color: #9c2626;
+    .drawzone {
+        z-index: 999;
+        .canvas{
+            border: 1px solid #000;
+            border-radius: 15px;
+            width: 75rem;
+            height: 75rem;
+            background-color: grey;
+        }
+    }
 }

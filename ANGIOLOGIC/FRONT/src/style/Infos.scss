@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(77, 77, 77);
+    // background-color: rgb(77, 77, 77);
     .infos-sct {
         user-select: none;
         // background-color: aqua;
@@ -54,7 +54,8 @@ body {
                     text-align: center;
                     color: #FFF;
                     font-size: 130%;
-                }
+                }    // background-color: rgb(77, 77, 77);
+
                 .infos-app-sct-status-content {
                     margin-top: 15px;
                     width: 100%;
