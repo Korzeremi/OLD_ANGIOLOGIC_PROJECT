@@ -6,6 +6,9 @@ import Top from '../components/Topbar.vue';
 <template>
     <body>
         <Top></Top>
+        <div class="infos-sct">
+            
+        </div>
         <Foot></Foot>
     </body>
 </template>

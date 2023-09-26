@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+    .infos-sct {
+        user-select: none;
+        background-color: aqua;
+        height: 75%;
+        width: 89%;
+        border-radius: 15px;
+        z-index: 998;
+        backdrop-filter: blur(15px);
+        background-color: rgba(0, 0, 0, 0.377);
+    }
+}
