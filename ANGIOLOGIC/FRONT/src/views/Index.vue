@@ -1,11 +1,9 @@
 <script setup>
 import Foot from '../components/Footbar.vue';
-import Top from '../components/Topbar.vue';
 </script>
 
 <template>
     <body>
-        <Top></Top>
         <div class="index-back-sct">
             <video autoplay loop muted>
                 <source src="../assets/doc.mp4" type="video/mp4">

@@ -4,4 +4,14 @@
 
 .topbar {
     visibility: visible;
+    z-index: 999;
+}
+
+.footbar {
+    visibility: visible;
+    z-index: 999;
+}
+
+body {
+    background-color: aliceblue;
 }
