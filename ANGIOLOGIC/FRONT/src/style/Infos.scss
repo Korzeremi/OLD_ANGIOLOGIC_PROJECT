@@ -1,13 +1,85 @@
 body {
-    background-color: aqua;
+    background-color: rgb(77, 77, 77);
     .infos-sct {
         user-select: none;
-        background-color: aqua;
+        // background-color: aqua;
         height: 75%;
         width: 89%;
         border-radius: 15px;
         z-index: 998;
         backdrop-filter: blur(15px);
         background-color: rgba(0, 0, 0, 0.377);
+        display: flex;
+        .infos-app-sct {
+            height: 100%;
+            width: 50%;
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .infos-app-sct-main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #FFF;
+            }
+            .infos-app-sct-dev {
+                h2 {
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 130%;
+                }
+            }
+            .infos-app-sct-txt {
+                display: flex;
+                flex-direction: column;
+                // background-color: aqua;
+                width: 85%;
+                h2 {
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 130%;
+                }
+                p {
+                    color: #FFF;
+                    margin-top: 15px;
+                    text-align: center;
+                }
+            }
+            .infos-app-sct-status {
+                width: 100%;
+                h2 {
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 130%;
+                }
+                .infos-app-sct-status-content {
+                    margin-top: 15px;
+                    width: 100%;
+                    .infos-app-sct-status-content-github {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        a {
+                            img {
+                                width: 10rem;
+                                border-radius: 4px;    
+                            }
+                        }
+                        img {
+                            width: 10rem;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+        .infos-legal-sct {
+            height: 100%;
+            width: 50%;
+            // background-color: green;
+        }
     }
 }

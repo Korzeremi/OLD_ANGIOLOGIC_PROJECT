@@ -28,7 +28,7 @@
             </router-link>
         </div>
         <div class="topbar-app-status">
-            <p>ALPHA - DEBUG TEST</p>
+            <p>DEBUG TEST</p>
         </div>
     </div>
 </template>
