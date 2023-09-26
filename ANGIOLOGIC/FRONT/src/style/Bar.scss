@@ -1,0 +1,40 @@
+.topbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .topbar-logo {
+        width: 25%;
+        background-color: rgb(28, 75, 75);
+        text-align: center;
+    }
+    .topbar-btn-sct {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .topbar-app-status {
+        width: 24%;
+        text-align: center;
+    }
+}
+
+.footbar {
+    // width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footbar-infos-sct {
+        text-align: center;
+        width: 50%;
+        // height: 100%;
+    }
+    .footbar-support-sct {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        a {
+            text-align: center;
+        }
+    }
+}

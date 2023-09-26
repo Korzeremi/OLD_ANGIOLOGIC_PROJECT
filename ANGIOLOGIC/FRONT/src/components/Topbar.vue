@@ -15,28 +15,4 @@
     </div>
 </template>
 
-<style lang="css" scoped>
-    .topbar {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .topbar-logo {
-        width: 25%;
-        background-color: rgb(28, 75, 75);
-        text-align: center;
-    }
-    .topbar-btn-sct {
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .topbar-btn-sct > button {
-        width: 24%;
-    }
-    .topbar-app-status {
-        width: 24%;
-        text-align: center;
-    }
-</style>
+<style src="../style/Bar.scss" scoped></style>
