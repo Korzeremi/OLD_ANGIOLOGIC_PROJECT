@@ -1,4 +1,5 @@
 # ANGIOLOGIC : DRAWING PLATFORM FOR ANGIOLOGISTS
+[![wakatime](https://wakatime.com/badge/user/bd983427-c491-4a42-8cb8-c95de187e70a/project/ada7401b-4388-42b4-a059-f93d5501915b.svg)](https://wakatime.com/badge/user/bd983427-c491-4a42-8cb8-c95de187e70a/project/ada7401b-4388-42b4-a059-f93d5501915b)
 ## INFORMATIONS ABOUT THE PROJECT  
 ### MAIN IDEAS  
 - Online platform to draw angiology sheets
